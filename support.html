@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Distort Support</title>
+  <meta name="description" content="Support for the Distort iPhone app by Search and Distort." />
+  <style>
+    :root {
+      --bg: #050505;
+      --panel: #0d0d0d;
+      --text: #f5f5f5;
+      --muted: #a7a7a7;
+      --line: #252525;
+      --accent: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0 80px;
+    }
+    .eyebrow {
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: clamp(42px, 9vw, 72px);
+      letter-spacing: -0.04em;
+      line-height: 0.95;
+      margin: 0 0 18px;
+    }
+    .intro {
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 620px;
+      margin-bottom: 42px;
+    }
+    section {
+      border-top: 1px solid var(--line);
+      padding: 28px 0;
+    }
+    h2 {
+      font-size: 22px;
+      margin: 0 0 12px;
+    }
+    p, li { color: #d7d7d7; }
+    ul { padding-left: 20px; margin-bottom: 0; }
+    a {
+      color: var(--accent);
+      text-underline-offset: 4px;
+    }
+    .contact {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 12px 18px;
+      border: 1px solid #444;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--line);
+      padding-top: 24px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Search and Distort</div>
+    <h1>Distort Support</h1>
+    <p class="intro">
+      Need help with Distort? Use the information below for common issues, device requirements,
+      and contact details.
+    </p>
+
+    <section>
+      <h2>About Distort</h2>
+      <p>
+        Distort is a camera and LiDAR visual-effects app for iPhone. It includes real-time and
+        capture-based effects such as LiDAR scanning, Voxel, Wrap, Color Scatter, 3D Scan, and
+        other experimental visual modes.
+      </p>
+    </section>
+
+    <section>
+      <h2>Device Requirements</h2>
+      <p>
+        Some Distort features require an iPhone or iPad equipped with a LiDAR Scanner.
+        Features that rely on depth sensing may be unavailable or behave differently on devices
+        without LiDAR hardware.
+      </p>
+    </section>
+
+    <section>
+      <h2>Camera, Microphone & Photos</h2>
+      <ul>
+        <li>Camera access is required for camera and LiDAR effects.</li>
+        <li>Microphone access is required when recording video with audio.</li>
+        <li>Photos access is used when saving photos and videos to your device.</li>
+      </ul>
+      <p>
+        You can review these permissions in iPhone Settings → Distort.
+      </p>
+    </section>
+
+    <section>
+      <h2>Troubleshooting</h2>
+      <ul>
+        <li>Close and reopen Distort if the camera preview or an effect stops responding.</li>
+        <li>Make sure Camera, Microphone, and Photos permissions are enabled.</li>
+        <li>For LiDAR modes, use a supported LiDAR-equipped device.</li>
+        <li>Keep enough free storage available when recording or processing scans.</li>
+        <li>If a saved video does not appear immediately, reopen the Photos app and check Recents.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Support</h2>
+      <p>
+        If you still need help, email Distort support and include your iPhone model, iOS version,
+        and a short description of the issue.
+      </p>
+      <a class="contact" href="mailto:grewalgursh123@gmail.com">Email Distort Support</a>
+    </section>
+
+    <section>
+      <h2>Privacy</h2>
+      <p>
+        Read the <a href="https://grewalgursh123-a11y.github.io/Distort-privacy/" target="_blank" rel="noopener">Distort Privacy Policy</a>.
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Search and Distort. Distort.
+    </footer>
+  </main>
+</body>
+</html>
