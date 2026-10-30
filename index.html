@@ -17,11 +17,19 @@
 <body>
 <main>
   <h1>Distort Privacy Policy</h1>
-  <p class="updated">Last updated October 15, 2026</p>
+  <p class="updated">Last updated October 30, 2026</p>
   <h2>Overview</h2>
   <p>Distort is a camera, LiDAR, depth, 3D, photo and video effects app for iPhone. Distort does not require an account. Your camera, LiDAR/depth, microphone, photo, video and tracking content is processed on your device rather than uploaded to a Distort server.</p>
   <h2>Camera, LiDAR, TrueDepth &amp; Depth</h2>
   <p>Distort uses camera images and, on supported devices, LiDAR, TrueDepth and ARKit tracking information to render live visual effects and 3D scenes. Supported effects can estimate depth on-device when hardware depth is unavailable. Front-camera processing may use ARKit face tracking. This information is used for visual effects, not to identify you, and is not sent to external AI services.</p>
+<h2>TrueDepth and Face Data — Information Accessed</h2>
+<p>When you use supported front-camera effects, Distort accesses camera images and TrueDepth depth maps (distances from the camera to visible surfaces, which may include your face). ARKit face-tracking sessions provide the front-camera capture context and camera tracking used by these effects. The app uses image and depth buffers; it does not read ARFaceAnchor face-mesh geometry, expression blend-shape coefficients or eye-gaze values. Distort does not access Face ID authentication templates or use face data to identify or authenticate people.</p>
+<h2>TrueDepth and Face Data — Purpose and Use</h2>
+<p>Face-containing images and depth information are processed on your device to create live camera effects, colored point clouds, 3D scans, subject masks and creative recordings. These same local processing practices apply to LiDAR, Cube, Prism, 3D, Echo, Warp, Voxel, Color Scatter, Depth Lab, Body Tracking, Time Block, Subject Echo and Glitch Mix, including subject copies, retained scans, simulated domains, portals and placed elements. Distort does not use face data for advertising, profiling, identification, analytics or training AI models.</p>
+<h2>TrueDepth and Face Data — Sharing and Storage</h2>
+<p>Distort does not upload face images, TrueDepth maps or face-derived scans to Distort servers or automatically disclose them to third parties. Processing and working buffers stay on the device. If you record, save or export a creation, it may contain a visible face or a 3D representation derived from face depth. 3D point-cloud exports are written to the app Documents/3D Scans folder; 3D video recordings are written to Documents/3D Videos. Other recording and import workflows use local temporary files. Saving to Photos or sharing through the system share sheet creates copies at the destination you choose. Apple backup or Photos synchronization may store eligible copies according to your device settings; a sharing destination handles its copy under its own privacy practices.</p>
+<h2>TrueDepth and Face Data — Retention and Deletion</h2>
+<p>Live image and depth buffers are replaced during processing. Captured scans and subject copies can stay in memory while you work or navigate domains, until cleared or reset, their owning session is released, or the app process ends. Stopping a scan or switching domains does not necessarily clear retained scans. Face-derived data included in a saved image, video or point-cloud export persists with that creation. Local Documents exports and recordings have no automatic time-based deletion schedule; deleting the app removes its local app data (offloading the app does not). Delete separately saved copies in Photos, Files or the service you shared them with, including Recently Deleted where applicable. Temporary import and recording files are cleaned up by relevant workflows or the operating system, but interrupted sessions can leave files behind. Backup copies follow your backup provider settings. Distort has no server-side face-data store to delete.</p>
   <h2>3D Scans &amp; Device Motion</h2>
   <p>3D features combine images, depth and motion tracking to create local point clouds and scene reconstructions. These may depict people, objects and surroundings you scan. Device motion helps orient 3D previews and recordings. You choose when to save or export your creations.</p>
   <h2>On-Device AI &amp; Body Tracking</h2>
@@ -42,7 +50,8 @@
   <h2>Changes to This Policy</h2>
   <p>If Distort adds data practices or online services that change how your information is handled, we will update this policy.</p>
   <h2>Contact</h2>
-  <p>For privacy questions, email <a href="mailto:grewalgursh123@gmail.com">grewalgursh123@gmail.com</a> or visit the <a href="support.html">Distort Support page</a>.</p>
+  <p>For privacy questions, visit the <a href="support.html">Distort Support page</a>.</p>
 </main>
 </body>
 </html>
+
